@@ -7,13 +7,15 @@ public class VehicleUse {
         // V.setMaxspeed(130);
         // V.print();
 
+        vechile V = new car(20, 90);
+        
+        V.print();
 
-
-        car c = new car(10, 150);
-        c.numGears = 8 ; 
-        c.color = "Blue";
-        c.setMaxspeed(160);
-        c.print();
+        // car c = new car(10, 150);
+        // c.numGears = 8;
+        // c.color = "Blue";
+        // c.setMaxspeed(160);
+        // c.print();
 
     }
 }

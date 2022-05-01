@@ -32,15 +32,17 @@ public class fraction {
          this.numerator = n; 
          simplify();
     }
-    public void setDenominator(int n)
+    public void setDenominator(int n) throws zerodenominatorException
     {
         if(denominator == 0)
         {
             // out error
-            return ;
+         zerodenominatorException e = new zerodenominatorException();
+         throw e;   
+            
         }
         this.denominator = n; 
-        simplify();
+        this.simplify();
     }
     public void print()
     {

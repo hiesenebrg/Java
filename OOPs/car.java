@@ -14,6 +14,12 @@ public class car extends vechile{
         this.numGears =- numGears; 
         System.out.println("car constructor");
     }
+
+    public boolean isCOnvertible()
+    {
+        return isCOnvertible;
+    }
+
     public void print() 
     {
         super.print();
