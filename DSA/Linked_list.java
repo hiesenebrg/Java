@@ -1,7 +1,5 @@
 package DSA;
 import java.util.ArrayList;
-
-import Strings.inp_str;
 public class Linked_list {
     public static void main(String[] args) {
         //Making linked list 
